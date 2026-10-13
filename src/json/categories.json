@@ -1,0 +1,51 @@
+{
+    "categories": [
+      {
+        "name": "Marriage",
+        "subcategories": [
+          "Marry me Decor",
+          "Ring Ceremony",
+          "Let's Party",
+          "Bride to Be",
+          "Groom to Be",
+          "First Night",
+          "Haldi Decor"
+        ]
+      },
+      {
+        "name": "Anniversary",
+        "subcategories": [
+          "Anniversary Decorations",
+          "Better Together",
+          "Candlelight Dinner"
+        ]
+      },
+      {
+        "name": "Birthday",
+        "subcategories": [
+          "Kids Birthday",
+          "Adult Birthday"
+        ]
+      },
+      {
+        "name": "Others",
+        "subcategories": [
+          "Baby Shower",
+          "Festival Decoration",
+          "Shop Opening Decoration",
+          "Office Balloon Decoration",
+          "Bouquet Surprise",
+          "Congratulations Decoration",
+          "Housewarming Decoration",
+          "Retirement Decoration",
+          "Mundan Ceremony",
+          "First Night Decoration",
+          "Proposal Decoration"
+        ]
+      }
+    ]
+  }
+
+
+
+  

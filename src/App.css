@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Marcellus&display=swap');
+
+
+.marcellus-regular {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bricolage-grotesque {
+    font-family: "Bricolage Grotesque", sans-serif;
+
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.oleo {
+    font-family: "Oleo Script", serif;
+}
+
+.satisfy {
+    font-family: "Satisfy", serif;
+
+}
+
+.poly {
+    font-family: "Poly", serif;
+}
+
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+}
+
+.poltawski-nowy {
+    font-family: "Poltawski Nowy", serif;
+}
+
+.montserrat {
+    font-family: "Montserrat", serif;
+}
+
+.alata {
+    font-family: "Alata", serif;
+
+}
+
+.carter {
+    font-family: "Carter One", serif;
+
+}
+
+.margin-right {
+    margin-inline: 20px;
+}
+
+.shadow-new {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+input[type="radio"] {
+    accent-color: #FF4286;
+}
+
+/* Hide scrollbar for Chrome, Safari and Edge */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.scrollbar-hide {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+
+/* Thin scrollbar for Chrome, Safari, and Edge */
+.scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+
+}
+
+/* Thin scrollbar track for Chrome, Safari, and Edge */
+.scrollbar-thin::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+/* Thin scrollbar thumb for Chrome, Safari, and Edge */
+.scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Set the thumb color */
+    border-radius: 10px;
+    /* Optional: make the thumb rounded */
+}
+
+/* Thin scrollbar for Firefox */
+.scrollbar-thin {
+    scrollbar-width: thin;
+    /* Use 'thin' for the Firefox scrollbar */
+    scrollbar-color: #888 #f1f1f1;
+    /* Set the thumb color and track color */
+}
+
+
+
+/* In your global CSS file */
+.no-scroll {
+    overflow: hidden;
+    position: fixed;
+    /* Fixes the body position */
+    width: 100%;
+    /* Ensures full-width */
+    height: 100%;
+    /* Ensures full-height */
+}
+
+@keyframes slideDown {
+    from {
+        height: 20vh;
+        opacity: 0;
+    }
+
+    to {
+        /* height: 80vh; */
+        opacity: 1;
+    }
+}
+
+/* Default (Desktop) */
+.animated-div {
+    animation: slideDown 0.5s ease-in-out;
+    height: 80vh;
+}
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .animated-div {
+        height: 60vh;
+    }
+}
+
+/* Mobile (below 768px) */
+@media (max-width: 768px) {
+    .animated-div {
+        height: 40vh;
+    }
+}
+
+
+@keyframes slideUp {
+    from {
+        height: 100vh;
+        opacity: 1;
+    }
+
+    to {
+        height: 0;
+        opacity: 0;
+    }
+}
+
+.search-bar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000056;
+    overflow: scroll;
+    z-index: 20;
+
+}
+
+.search-bar {
+    background-color: white;
+
+}
+
+
+.search-bar.open {
+    animation: slideDown 0.3s ease-in-out forwards;
+}
+
+.search-bar.close {
+    animation: slideUp 0.3s ease-in-out forwards;
+}
+
+/* Hide default react-slick arrows */
+
+
+/* Custom arrow styles */
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* Left arrow positioning */
+.custom-arrow.left-0 {
+    left: -40px;
+}
+
+/* Right arrow positioning */
+.custom-arrow.right-0 {
+    right: -40px;
+}
+
+a{
+    color: blue !important;
+    text-decoration:underline !important
+}
+
+.linkColorBlack{
+    color: #000 !important;
+    text-decoration: none !important;
+}
+.linkColorGray{
+    color: #424040ea !important;
+    text-decoration: none !important;
+    /* font-weight: 400 !important; */
+}
+
+.linkColorPink{
+    color: #FF4286 !important;
+    text-decoration: none !important;
+}
+.linkColorWhite{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+
+/* Clamp to 7 lines */
+.clamp-7 {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
